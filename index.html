@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css".css">
+    <title>Calculator || Task -1</title>
+  </head>
+  <body>
+    <div class="containor">
+      <h1>DM's Universe!</h1>
+      <div class="box">
+        <div class="inputbox">
+          <input type="text" id="inputval" readonly />
+        </div>
+        <div class="box1">
+          <button onclick="addtoDisplayac()">AC</button>
+          <button onclick="addtoDisplaydel()">DEL</button>
+          <button onclick="addtoDisplay('%')">%</button>
+          <button onclick="addtoDisplay('/')">/</button>
+        </div>
+        <div class="box2">
+          <button onclick="addtoDisplay('7')">7</button>
+          <button onclick="addtoDisplay('8')">8</button>
+          <button onclick="addtoDisplay('9')">9</button>
+          <button onclick="addtoDisplay('*')">*</button>
+        </div>
+        <div class="box3">
+          <button onclick="addtoDisplay('4')">4</button>
+          <button onclick="addtoDisplay('5')">5</button>
+          <button onclick="addtoDisplay('6')">6</button>
+          <button onclick="addtoDisplay('-')">-</button>
+        </div>
+        <div class="box4">
+          <button onclick="addtoDisplay('1')">1</button>
+          <button onclick="addtoDisplay('2')">2</button>
+          <button onclick="addtoDisplay('3')">3</button>
+          <button onclick="addtoDisplay('+')">+</button>
+        </div>
+        <div class="box5">
+          <button onclick="addtoDisplay('0')">0</button>
+          <button onclick="addtoDisplay('00')">00</button>
+          <button onclick="addtoDisplay('.')">.</button>
+          <button onclick="calculate()" id="equal">=</button>
+        </div>
+      </div>
+     <script src="script.js"></script>
+  </body>
+</html>
